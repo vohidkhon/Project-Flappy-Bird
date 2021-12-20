@@ -1,0 +1,57 @@
+/*шапка*/
+.logo {
+    width: 250px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.logo:active{
+    width: 150px;
+    /*animation-duration:100s;*/
+}
+.fon {
+    background-image: url(fon.jpg);
+    width:95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.ramka {
+    border: 3px solid #000000;
+}
+a {
+    font-family: "Overlock",trebuchet ms !important;
+    color: #111;
+    text-decoration: none;
+    font-size: 16px;
+}
+.box > a:hover {
+    border-bottom-style: solid;
+    transition: 0.3s;
+    font-size: 18px;
+}
+.border {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.contain {
+    margin: 0 auto;
+    border: none;
+    background: none transparent;
+    width: 1200px;
+    box-shadow: none;
+    position: relative;
+    clear: both;
+    padding: 0;
+}
+.nav {
+    position: relative;
+    margin: 20px;
+}
+.box {
+    margin: 20px;
+}
